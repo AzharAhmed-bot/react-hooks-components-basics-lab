@@ -29,7 +29,7 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home />
+      {Home()}
       <About />
     </div>
   );
